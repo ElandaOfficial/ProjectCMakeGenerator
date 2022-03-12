@@ -1,0 +1,29 @@
+{
+    "name":    "TestProject",
+    "id":      "TestProject",
+    "version": "0.1.0",
+    "website": "https://google.com/",
+    "author":  "Elanda",
+    
+    "settings": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": true
+    },
+    
+    "dependencies": {
+        
+    },
+    
+    "juce": {
+        "git": {
+            "branch": "master",
+            "version": "6.1.2"
+        },
+        
+        "modules": [],
+        
+        "project": {
+            "type": "gui_app",
+            "class": "MainComponent"
+        }
+    }
+}

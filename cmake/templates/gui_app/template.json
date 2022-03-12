@@ -1,0 +1,18 @@
+{
+    "files": [
+        {
+            "name": "Main.cpp",
+            "action": "configure"
+        },
+        {
+            "name": "MainComponent.cpp",
+            "alt": "${TEMPLATE_CLASS_NAME}.cpp",
+            "action": "configure"
+        },
+        {
+            "name": "MainComponent.h",
+            "alt": "${TEMPLATE_CLASS_NAME}.h",
+            "action": "configure"
+        }
+    ]
+}
